@@ -5,8 +5,20 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Industries Website Template by Colorlib</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet"/>
+
+        <link rel="stylesheet" href="/static/css/animate.css"/>
+        <link rel="stylesheet" href="/static/css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="/static/css/jquery.fancybox.min.css"/>
+
+        <link rel="stylesheet" href="/static/fonts/ionicons/css/ionicons.min.css"/>
+        <link rel="stylesheet" href="/static/fonts/fontawesome/css/font-awesome.min.css"/>
+
+        <link rel="stylesheet" href="/static/css/style.css"/>
       </Head>
 
       <main className={styles.main}>
